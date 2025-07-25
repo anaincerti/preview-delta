@@ -50,13 +50,14 @@
       background: transparent;
       margin: 0 auto;
     }
+    /* Produto 1: Copo Térmico Inox 320ML CO165L2 */
     .logo-preview {
       position: absolute;
-      left: 50%;
-      top: 43%;
+      left: 50%;       /* centraliza horizontalmente */
+      top: 60%;        /* aumenta para descer a logo */
       transform: translate(-50%, -50%);
-      width: 87px;
-      height: 62px;
+      width: 95px;     /* largura da área vermelha */
+      height: 54px;    /* altura da área vermelha */
       z-index: 2;
       display: flex;
       align-items: center;
@@ -64,19 +65,21 @@
       pointer-events: none;
       opacity: 0.85;
     }
-    /* Produto 2: ajuste a posição/tamanho para área marcada */
+    /* Produto 2: Garrafa Inox 780ML GA174M */
     .logo-preview.produto2 {
-      top: 41%;
       left: 50%;
-      width: 108px;
-      height: 53px;
+      top: 60%;
+      width: 65px;
+      height: 105px;
+      transform: translate(-50%, -50%);
     }
-    /* Produto 3: ajuste a posição/tamanho para área marcada */
+    /* Produto 3: Bolsa Térmica 10L BT240B2 */
     .logo-preview.produto3 {
-      top: 38%;
-      left: 50%;
-      width: 120px;
-      height: 50px;
+      left: 53%;    /* levemente para a direita */
+      top: 57%;     /* desce um pouco */
+      width: 118px;
+      height: 52px;
+      transform: translate(-50%, -50%) rotate(-7deg); /* leve inclinação para acompanhar o tecido */
     }
     .logo-preview img {
       width: 100%;
